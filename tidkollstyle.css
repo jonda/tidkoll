@@ -1,0 +1,79 @@
+/* 
+    Document   : tidkollstyle
+    Created on : 2010-nov-10, 08:20:38
+    Author     : jnda
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+/*a:link { text-decoration: none;
+border: 1px solid #781351; }
+a:visited { text-decoration: none; 
+color:blue}*/
+
+
+        .gruppering1 {
+            background:black;
+            color:white;
+            font-family:sans-serif;
+            font-weight:bold;
+            font-size:150%;
+        }
+        .gruppering2 {
+            background:#222222;
+            color:white;
+            font-family:sans-serif;
+            font-weight:bold;
+        }
+        .gruppering3 {
+            background:#555555;
+            color:white;
+            font-family:sans-serif;
+            font-weight:bold;
+        }
+
+        fieldset
+{
+border: 1px solid #781351;
+width: 42em
+}
+
+legend
+{
+    font-family:sans-serif;
+    font-weight:bold;
+    color: black;
+    background: yellow;
+    border: 1px solid #781351;
+    padding: 2px 6px
+}
+
+label
+{
+    width: 8em;
+    float: left;
+    text-align: right;
+    margin-right: 0.5em;
+    display: block
+}
+
+fieldset {
+    background:#BBBBBB;
+}
+
+.navigering {
+border: 1px solid #781351;
+/*width: 10em;*/
+background:#EEEEEE;
+padding:6px;
+
+}
+
